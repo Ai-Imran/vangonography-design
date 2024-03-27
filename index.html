@@ -25,14 +25,14 @@
  }
     </style>
   </head>
-  <body class="body py-10 text-white">
+  <body class="body pt-4 md:pt-10 text-white">
     <!-- ------------ Header --------------- -->
     <header>
-      <div class="flex justify-between mx-8 mt-4 items-center">
+      <div class="md:flex justify-between mx-8 mt-4 items-center">
         <div>
-          <img class="w-[400px]" src="./images/Logo.png" alt="" />
+          <img class="w-[400px] mb-10 " src="./images/Logo.png" alt="" />
         </div>
-        <div class="ul text-xl text-purple-400 mr-10">
+        <div class="ul  text-xl text-purple-400 mr-10">
           <ul class="flex gap-3 col">
             <li>
               <a href="#">Home</a>
@@ -40,7 +40,13 @@
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Contact</a></li>
-            <li class="cursor-pointer text-orange-400">Account</li>
+            <li>
+              <div class="avatar cursor-pointer w-16 -mt-4">
+                <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                  <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                </div>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
@@ -142,20 +148,43 @@
 
   <div class="relative">
     <img class="h-[600px] my-6 mx-auto rounded-lg" src="./images//login.png" alt="">
-    <form class="text-center text-white absolute top-1/3 ml-[400px] bg-none  ">
-      <input class=" bg-transparent border   border-lime-400  hover:border-purple-500  w-[500px] px-3 py-2 m-2 bg-none outline-none rounded-md" type="text" name="name" placeholder="Your Name" id=""> <br>
+    <form class="text-center text-white absolute top-1/2 md:top-1/3 
+    md:ml-[400px] ml-[100px] bg-none  ">
+      <input class=" bg-transparent border   border-lime-400  hover:border-purple-500 w-[300px] md:w-[500px] px-3 py-2 m-2 bg-none outline-none rounded-md" type="text" name="name" placeholder="Your Name" id=""> <br>
    
-      <input class=" bg-transparent border   border-lime-400  hover:border-purple-500  w-[500px] px-3 py-2 m-2 bg-none hover:bg-none outline-none rounded-md" type="email" name="name" placeholder="Your Email" id=""> <br>
+      <input class=" bg-transparent border   border-lime-400  hover:border-purple-500  w-[300px] md:w-[500px] px-3 py-2 m-2 bg-none hover:bg-none outline-none rounded-md" type="email" name="name" placeholder="Your Email" id=""> <br>
  
-      <input class=" bg-transparent border   border-lime-400  hover:border-purple-500  w-[500px] px-3 py-2 m-2 bg-none outline-none rounded-md" type="password" name="name" placeholder="Your Password" id=""> <br>
+      <input class=" bg-transparent border   border-lime-400  hover:border-purple-500  w-[300px] md:w-[500px] px-3 py-2 m-2 bg-none outline-none rounded-md" type="text" name="name" placeholder="Your Password" id=""> <br>
     
       <input class="btn w-full text-center hover:bg-purple-500  bg-lime-400"  type="submit" value="Send">
     </form>
   </div>
   <!-- ----------explore now---------- -->
   <section>
+    <h2 class="text-6xl text-[#fff200] text-center my-10">Explore Now </h2>
 
-  </section>
+    <!-- explore image -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-8 justify-center items-center">
+      <img class="rounded-lg hover:border-lime-400 hover:border" src="./images/inp1.png" alt="">
+      <img class="rounded-lg hover:border-lime-400 hover:border" src="./images/Initial Page (1).png" alt="">
+      <img class="rounded-lg hover:border-lime-400 hover:border" src="./images/Initial Page (2).png" alt="">
+      <img class="rounded-lg hover:border-lime-400 hover:border" src="./images/Initial Page (3).png" alt="">
+      <img class="rounded-lg hover:border-lime-400 hover:border" src="./images/Initial Page (4).png" alt="">
+      <img class="rounded-lg hover:border-lime-400 hover:border" src="./images/Initial Page (6).png" alt="">
+      <img class="rounded-lg hover:border-lime-400 hover:border" src="./images/Initial Page (7).png" alt="">
+      <img class="rounded-lg hover:border-lime-400 hover:border" src="./images/Initial Page (8).png" alt="">
+      <img class="rounded-lg hover:border-lime-400 hover:border" src="./images/Initial Page.png" alt="">
+      <img class="rounded-lg hover:border-lime-400 hover:border" src="./images/Interactive section (1).png" alt="">
+      <img class="rounded-lg hover:border-lime-400 hover:border" src="./images/Initial Page (2).png" alt="">
+      <img class="rounded-lg hover:border-lime-400 hover:border" src="./images/Interactive section (3).png" alt="">
+      <img class="rounded-lg hover:border-lime-400 hover:border" src="./images/Interactive section (4).png" alt="">
+      <img class="rounded-lg hover:border-lime-400 hover:border" src="./images/Interactive section (5).png" alt="">
+      <img class="rounded-lg hover:border-lime-400 hover:border" src="./images/Interactive section (6).png" alt="">
+      <img class="rounded-lg hover:border-lime-400 hover:border" src="./images/Interactive section (7).png" alt="">
+
+
+
+    </div>
 </main>
 
 <footer class="footer p-10 bg-black text-[#778ca3]">
